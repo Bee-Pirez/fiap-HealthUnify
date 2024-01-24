@@ -54,7 +54,7 @@ Adicione regras de firewall para permitir o acesso ao banco de dados de endereç
 5. Revisar e criar
 6. No meu projeto utilizei o sequelize, então configure o arquivo api/config/config.json do Sequelize com as informações do seu banco de dados Azure.
 
-##### Conceitos importantes:
+#### Conceitos importantes:
 - Grupo de Recursos: Um conjunto lógico de recursos do Azure que são gerenciados como uma unidade. Ele permite organizar, implantar e gerenciar recursos de maneira eficiente.
 - Servidor MySQL no Azure: É o servidor que hospedará seu banco de dados. É necessário configurar o acesso a partir do portal Azure.
 - Firewall: Controla quais endereços IP têm permissão para acessar o servidor MySQL. Configure as regras de firewall para garantir a segurança.
