@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login - Paciente</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><img src="../../img/logo.svg" alt=""></a>
+    </header>
+    <main>
+        <section class="caixa-geral">
+            <div class="divisao-caixa-geral">
+                
+                <p class="txt-negrito">Olá! É ótimo te ver novamente!</p>
+                <form id="formProfissional" method="post">
+                    <div class="caixa-form">
+                        <label for="crm" class="titulos">CRM</label>
+                        <input type="text" class="campo-form crm" name="crm" id="crm"
+                        placeholder="nome@domínio.com" required>
+                    </div>
+                    <div class="caixa-form">
+                        <label for="senha" class="titulos">Senha</label>
+                        <div class="grupo-input-senha campo-form">
+                            <input type="password" class=" senha" name="senha" id="senha" placeholder="Digite sua senha"
+                            required>
+                            <div class="grupo-visualizar-senha">
+                                <i class="fa-regular fa-eye" class="visibilidade" id="visibilidade"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="caixa-form caixa-form-checkbox">
+                        <div>
+                            <input type="checkbox" name="manter-conectado" id="manter-conectado"
+                            value="manter-conectado">
+                            <label for="manter-conectado" class="txt-normal">Manter Conectado</label>
+                        </div>
+                        <a href="" class="txt-link">Esqueci a senha</a>
+                    </div>
+                    <button type="submit" class="btn-login">Entrar</button>
+                </form>
+                
+            </div>
+            <div class="divisao-caixa-geral">
+                <img class="imagem-login" src="../../img/doutor-com-tablet.svg" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="divisao-rodape">
+            <i class="fa-regular fa-copyright icone-rodape"></i>
+            <p class="txt-rodape">2023 HealthUnify. Todos os direitos reservados</p>
+        </div>
+        <div class="divisao-rodape icones-sociais">
+            <i class="fa-regular fa-envelope icone-rodape"></i>
+            <i class="fa-brands fa-github icone-rodape"></i>
+            <i class="fa-brands fa-linkedin icone-rodape"></i>
+        </div>
+    </footer>
+    <script src="../../js/loginProfissional.js"></script>
+</body>
+
+</html>

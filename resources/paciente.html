@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/paciente.css" />
+    <link rel="stylesheet" href="./css/carousel.css" />
+    <title>Paciente</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./img/logo.svg" alt="logo-health-unify">   
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li><a class="select_page" href="./paciente.html">Paciente</a></li>
+          <li>
+            <a href="./parceiro.html">Parceiros</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="caixa-geral">
+        <div class="content_section">
+          <h1>Sua jornada de bem-estar começa aqui.</h1>
+          <p>
+            Conectando pontos e unificando dados para uma vida mais saudável.
+            Você no controle da sua saúde e alcançar uma vida mais saudável e
+            bem-estar duradouro.
+          </p>
+          <div class="container_button">
+            <a class="sign_in" href="./views/paciente/loginPaciente.html">Entrar no portal</a>
+            <a class="sign_up" href="./views/paciente/cadastroPaciente.html">Cadastrar</a>
+          </div>
+        </div>
+        <div class="container_image">
+          <img src="./img/banner-pacient.svg" alt="banner-home" />
+        </div>
+      </section>
+
+
+      <section class="container_section_cards">
+        <h2>Aqui você encontrará</h2>
+        <div class="container-cards">
+          <div class="card">
+            <div class="content_card">
+              <img src="./img/icon-card-1.svg" alt="icon-card">
+              <h3>Fácil acesso a exames e resultados</h3>
+              <p>
+                Visualize e compartilhe facilmente resultados de exames com seus
+                médicos.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content_card">
+              <img src="./img/icon-card-2.svg" alt="icon-card" />
+              <h3>Histórico de saúde completo</h3>
+              <p>
+                Acesso ao seu histórico, para você acompanhar sua jornada de
+                bem-estar.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content_card">
+              <img src="./img/icon-card-3.svg" alt="icon-card" />
+              <h3>Acesso rápido a profissionais da saúde</h3>
+              <p>
+                Encontre e agende consultas com especialistas de forma rápida.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="carousel-section">
+        <h2>Passos para utilizar nossa plataforma</h2>
+        <div class="carousel">
+          <div class="slide">
+            <h2>1. Faça seu cadastro</h2>
+            <p>
+              Dê o primeiro passo para uma saúde mais informada e acessível.
+              Cadastre-se como paciente e abra as portas para uma jornada de
+              cuidados de saúde personalizados.
+            </p>
+          </div>
+          <div class="slide">
+            <h2>2. Preencha seus dados</h2>
+            <p>
+              Preencha seus dados pessoais, como cpf, data de nascimento,
+              telefone, e outros. Essas informações são fundamentais para a sua
+              experiência em nossa plataforma.
+            </p>
+          </div>
+          <div class="slide">
+            <h2>3. Acompanhe seu histórico de saúde</h2>
+            <p>
+              Com o HealthUnify, você pode acompanhar todas as informações
+              relevantes para tomar decisões informadas sobre seu bem-estar e
+              tratamento médico.
+            </p>
+          </div>
+          <a class="control" id="prev" onclick="plusSlides(-1)">
+            <img
+              class="icon_arrow"
+              src="./img/icon-arrow-prev-home.svg"
+              alt="icon-arrow-prev"
+            />
+          </a>
+          <a class="control" id="next" onclick="plusSlides(1)">
+            <img
+              class="icon_arrow"
+              src="./img/icon-arrow-next-home.svg"
+              alt="icon-arrow-next"
+            />
+          </a>
+          <div class="indicadores">
+            <span class="indicador" onclick="currentSlide(1)"></span>
+            <span class="indicador" onclick="currentSlide(2)"></span>
+            <span class="indicador" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+        
+      </section>
+
+      <article>
+        <!-- imagem paciente -->
+        <img
+          class="image_pacient"
+          src="./img/image-pacient.svg"
+          alt="image-pacient"
+        />
+      </article>
+    </main>
+
+    <footer>
+      <div>
+        <ul>
+          <li>
+            <img src="./img/logo.svg" alt="logo-health-unify">
+          </li>
+          <li class="content_copy">
+            <img
+              class="copy"
+              src="./img/copy.svg"
+              alt="copywriting"
+            />
+            <p>2023 HealthUnify. Todos os direitos reservados</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><h3>Institucional</h3></li>
+          <li><p>Política de privacidade</p></li>
+          <li><p>Termos e condições</p></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><h3>Ajuda</h3></li>
+          <li><p>Dúvidas frequentes</p></li>
+          <li><p>Fale conosco</p></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./js/carousel.js"></script>
+  </body>
+</html>

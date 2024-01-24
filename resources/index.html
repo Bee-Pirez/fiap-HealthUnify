@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/carousel-home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo/favicon-default-light.svg"
+      type="image/x-icon"
+    />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./img/logo.svg" alt="logo-health-unify">   
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a class="select_page" href="./index.html">Home</a>
+          </li>
+          <li><a href="./paciente.html">Paciente</a></li>
+          <li>
+            <a href="./parceiro.html">Parceiros</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="caixa-geral">
+        <div class="content_section">
+          <h1>Seu universo de saúde em um único acesso</h1>
+          <p>
+            Aqui, a saúde e o bem-estar se unem em uma experiência perfeitamente
+            integrada, proporcionando a você um universo de cuidados através de
+            um único ponto de entrada.
+          </p>
+        </div>
+        <div class="container_image">
+          <img src="./img/banner-home.svg" alt="banner-home" />
+        </div>
+      </section>
+
+      <section class="container_section_cards">
+        <h2>Aqui você encontrará</h2>
+        <div class="container-cards">
+          <div class="card">
+            <div class="content_card">
+              <img src="./img/icon-card-1-home.svg" alt="icon-card">
+              <h3>Acesso fácil e seguro</h3>
+              <p>
+                Oferece acesso fácil e seguro a dados de saúde, permitindo que pacientes e médicos acessem informações quando e onde precisarem.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content_card">
+              <img src="./img/icon-card-1-home.svg" alt="icon-card" />
+              <h3>Economia de tempo e recursos</h3>
+              <p>
+                HealthUnify ajuda médicos e pacientes a economizarem tempo e
+                recursos, eliminando a necessidade de procurar informações em
+                várias fontes de papel.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content_card">
+              <img src="./img/icon-card-1-home.svg" alt="icon-card" />
+              <h3>Unificação de dados</h3>
+              <p>
+                HealthUnify oferece a capacidade de unificar dados de saúde.
+                Proporcionando uma visão completa do histórico de saúde.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="video">
+        <div>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/fAmKjRlkFE0?si=ygbkHOTumJ8SpnU7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="carousel-section">
+        <div class="carousel">
+          <div class="slide">
+            <h2>Nossa Missão</h2>
+            <p>
+              Oferecer acesso fácil e seguro a dados de saúde, permitindo que
+              pacientes e médicos acessem informações quando e onde precisarem.
+            </p>
+          </div>
+          <div class="slide">
+            <h2>Nossa Visão</h2>
+            <p>
+              Ser a plataforma de escolha para médicos, pacientes e sistemas de
+              saúde, transformando a gestão da saúde por meio da integração de
+              dados.
+            </p>
+          </div>
+          <div class="slide">
+            <h2>Nossos Valores</h2>
+            <p>
+              Nossos valores essenciais incluem inovação, integridade,
+              acessibilidade, colaboração, sustentabilidade, respeito à
+              privacidade e transparência.
+            </p>
+          </div>
+          <a class="control" id="prev" onclick="plusSlides(-1)">
+            <img
+              class="icon_arrow"
+              src="./img/icon-arrow-prev-home.svg"
+              alt="icon-arrow-prev"
+            />
+          </a>
+          <a class="control" id="next" onclick="plusSlides(1)">
+            <img
+              class="icon_arrow"
+              src="./img/icon-arrow-next-home.svg"
+              alt="icon-arrow-next"
+            />
+          </a>
+          <div class="indicadores">
+            <span class="indicador" onclick="currentSlide(1)"></span>
+            <span class="indicador" onclick="currentSlide(2)"></span>
+            <span class="indicador" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+        
+      </section>
+
+      <section>
+        <div class="container_cta">
+          <img
+            class="image_cta"
+            src="./img/vector-card-pacient.svg"
+            alt="image-cta"
+          />
+
+          <ul class="content_card_cta">
+            <li>
+              <h3>Quer ser um paciente unifyer?</h3>
+            </li>
+            <li>
+              <p>Faça agora o seu cadastro como paciente</p>
+            </li>
+            <li>
+              <a class="button_cta" href="./views/paciente/cadastroPaciente.html">Saiba mais</a>
+            </li>
+          </ul>
+        </div>
+        <div class="container_cta">
+          <img
+            class="image_cta"
+            src="./img/vector-card-professional.svg"
+            alt="image-cta"
+          />
+
+          <ul class="content_card_cta">
+            <li>
+              <h3>Quer se tornar nosso parceiro?</h3>
+            </li>
+            <li>
+              <p>Faça agora o seu cadastro como empresa</p>
+            </li>
+            <li>
+              <a class="button_cta" href="#">Saiba mais</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="creators-section">
+        <h2>Nossos criadores</h2>
+        <div class="creators-container">
+            <article class="creator-card">
+                <img src="./img/image-card-1.svg" alt="image-card">
+                <h3>Augusto Ryu</h3>
+                <p class="creator-links">
+                  <a href="https://www.linkedin.com/in/augusto-ryu/"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://github.com/Urryu"><i class="fa-brands fa-github"></i></a>
+                </p>
+            </article>
+            <article class="creator-card">
+                <img src="./img/image-card-2.svg" alt="image-card">
+                <h3>Beatriz Perez</h3>
+                <p class="creator-links">
+                  <a href="https://www.linkedin.com/in/perezbeatriz"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://github.com/Bee-Pirez"><i class="fa-brands fa-github"></i></a>
+                </p>
+            </article>
+            <article class="creator-card">
+                <img src="./img/image-card-3.svg" alt="image-card">
+                <h3>Cibele Rodrigues</h3>
+                <p class="creator-links">
+                  <a href="https://www.linkedin.com/in/cibelerodriguesl/"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://www.behance.net/cibelerodriguesl"><i class="fa-brands fa-behance"></i></a>
+                </p>
+            </article>
+            <article class="creator-card">
+                <img src="./img/image-card-4.svg" alt="image-card">
+                <h3>Eduardo Tavares</h3>
+                <p class="creator-links">
+                  <a href="https://www.linkedin.com/in/eduardodossantostavares"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://github.com/josiastavares"><i class="fa-brands fa-github"></i></a>
+                </p>
+            </article>
+        </div>
+    </section>
+  
+    </main>
+
+    <footer>
+      <div>
+        <ul>
+          <li>
+            <img src="./img/logo.svg" alt="logo-health-unify">
+          </li>
+          <li class="content_copy">
+            <img
+              class="copy"
+              src="./img/copy.svg"
+              alt="copywriting"
+            />
+            <p>2023 HealthUnify. Todos os direitos reservados</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><h3>Institucional</h3></li>
+          <li><p>Política de privacidade</p></li>
+          <li><p>Termos e condições</p></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><h3>Ajuda</h3></li>
+          <li><p>Dúvidas frequentes</p></li>
+          <li><p>Fale conosco</p></li>
+        </ul>
+      </div>
+    </footer>
+    
+    <script src="./js/carousel.js"></script>
+
+  </body>
+</html>

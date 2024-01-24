@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --color-primary: #4008E2;
+    --color-secundary: #60C4F0;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 4%
+}
+
+main {
+    height: 77vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    height: 8vh;
+}
+
+header,
+footer {
+    background-image: linear-gradient(10deg, #60C4F0, #4008E2);
+}
+
+.caixa-geral {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    height: 450px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 12px 16px 21px 0px rgba(0, 0, 0, 0.10);
+}
+
+.divisao-caixa-geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens{
+    height: 300px;
+}
+
+.imagem-profissional{
+    width: 400px;
+}
+
+.imagem-empresa{
+    width: 300px;
+}
+
+.botao{
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.botao:hover{
+    background-color: var(--color-primary);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.botao-profissional{
+    margin-left: 100px;
+}
+
+footer {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divisao-rodape {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icones-sociais{
+    gap: 15px;
+}
+
+.txt-rodape {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.icone-rodape{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/cadastro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cadastro - Paciente</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><img src="../../img/logo.svg" alt=""></a>
+    </header>
+    <main>
+        <div class="popup-background" id="popup-background"></div>
+        <div class="popup" id="popup">
+            <span class="close-popup" id="close-popup">&times;</span>
+            <i class="fas fa-check-circle"></i>
+            <p>Seu cadastro foi feito com sucesso</p>
+            <a href="./loginPaciente.html">Ir para a página de login</a>
+        </div>
+        
+        <div class="mensagem" id="mensagem-erro">
+            <i class="fas fa-exclamation-triangle"></i>
+            <p class="mensagem-erro-texto"></p>
+        </div>      
+        <section class="caixa-geral">
+            <div class="divisao-caixa-geral-form">
+                <h2 class="txt-negrito">Olá! É ótimo te ver novamente!</h2>
+                <form id="formPaciente" method="post">
+                    <div class="caixa-form">
+                        <label for="name" class="titulos">Nome</label>
+                        <input type="text" class="campo-form nome" name="name" id="name"
+                            placeholder="Digite seu nome completo" required>
+                    </div>
+                    <div class="caixa-form">
+                        <label for="cpf" class="titulos">CPF</label>
+                        <input type="text" class="campo-form cpf" name="cpf" id="cpf"
+                            placeholder="123.123.123-12" maxlength="14" required>
+                    </div>
+                    <div class="caixa-form">
+                        <label for="email" class="titulos">E-mail</label>
+                        <input type="email" class="campo-form email" name="email" id="email"
+                            placeholder="nome@domínio.com" required>
+                    </div>
+                    <div class="caixa-form">
+                        <label for="senha" class="titulos">Senha</label>
+                        <div class="grupo-input-senha campo-form">
+                            <input type="password" class=" senha" name="senha" id="senha" placeholder="Digite sua senha"
+                                required>
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"> <i class="fa-regular fa-eye visibilidade" id="visibilidade"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="caixa-form caixa-form-checkbox">
+                        <div>
+                            <input type="checkbox" name="manter-conectado" id="manter-conectado"
+                                value="manter-conectado">
+                            <label for="manter-conectado" class="txt-normal">Manter Conectado</label>
+                        </div>
+                        <a href="" class="txt-link">Esqueci a senha</a>
+                    </div>
+                    <button type="submit" class="btn-cadastro" id="btn-cadastro">Cadastrar</button>
+                </form>
+                <p class="txt-normal">Já tem uma conta? <a href="./loginPaciente.html" class=" class="txt-link">Clique aqui</a></p>
+            </div>
+            <div class="divisao-caixa-geral-img">
+                <img class="imagem-cadastro" src="../../img/pai-e-filho.svg" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="divisao-rodape">
+            <i class="fa-regular fa-copyright icone-rodape"></i>
+            <p class="txt-rodape">2023 HealthUnify. Todos os direitos reservados</p>
+        </div>
+        <div class="divisao-rodape icones-sociais">
+            <i class="fa-regular fa-envelope icone-rodape"></i>
+            <i class="fa-brands fa-github icone-rodape"></i>
+            <i class="fa-brands fa-linkedin icone-rodape"></i>
+        </div>
+    </footer>
+    <script src="../../js/cadastroPaciente.js"></script>
+</body>
+
+</html>

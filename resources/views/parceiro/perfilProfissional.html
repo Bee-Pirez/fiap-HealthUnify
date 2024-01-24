@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEALTHUNIFY - Perfil (Paciente)</title>
+    <!-- Link bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Link font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link css -->
+    <link rel="stylesheet" href="../../css/perfilPaciente.css">
+</head>
+
+<body>
+    <!-- ctrl; (cabeçalho) -->
+    <header>
+      <!-- ctrl; (barra de navegação) -->
+      <nav class="menu">
+        <img src="../../img/logo.svg" alt="logo-health-unify" style="width: 150px;">
+        <div class="menu_perfil">
+            <ul class="menu_navigation">
+              <li class="menu_perfil active"><a href="./perfilProfissional.html" target="_blank"><img src="../../img/perfil-img.svg" alt="#">Meu perfil</a></li>
+              <li><a href="./homeProfissional.html" target="_blank"><img src="../../img/busca-icon.svg" alt="#">Meus pacientes</a></li>
+              <li><a href="./prescricoesPaciente.html" target=_blank"><img src="../../img/notificacao-icon.svg" alt="#">Notificações</a></li>
+            </ul>
+        </div>
+        <a class="sair" href="" target="_blank"><img src="../../img/sair-icon.svg" alt="#">Sair</a>
+      </nav>
+    </header>
+    <!-- ctrl; (conteúdo principal) -->
+    <main>
+        <!-- ctrl; (seção) -->
+        <section class="perfil">
+            <form action="./pages/" class="perfil_form">
+                <div class="form_box">
+                    <label for="name" class="box_title">Nome Completo</label>
+                    <input type="text" class="box_name form-control" name="name" id="name" placeholder="Digite seu nome"
+                        request>
+                </div>
+                <div class="form_box">
+                    <label for="email" class="box_title">E-mail</label>
+                    <input type="email" class="box_email form-control" name="email" id="email" placeholder="exemplo@domínio.com"
+                        request>
+                </div>
+                <div class="form_box">
+                    <label for="crm" class="box_title">CRM</label>
+                    <input type="text" class="box_cpf form-control" name="crm" id="crm" placeholder="Adicione seu vrm" request>
+                </div>
+                <div class="form_box">
+                  <label for="especialidade" class="box_title">Especialidade</label>
+                  <input type="text" class="box_cpf form-control" name="especialidade" id="especialidade" placeholder="Adicione sua especialidade" request>
+              </div>
+                <div class="form_box">
+                    <label for="senha" class="box_title">Alterar Senha</label>
+                    <input type="password" class="box_senha form-control" name="senha" id="senha" placeholder="Digite sua nova senha"
+                        request>
+                </div>
+                <button type="submit" class="button_atualizar">Atualizar Cadastro</button>
+            </form>
+        </section>
+    </main>
+    <!-- ctrl; (conteúdo independente) -->
+    <article>
+    </article>
+    <!-- ctrl; (barra lateral) -->
+    <aside>
+    </aside>
+    <!-- ctrl; (multiplas imagens) -->
+    <figure>
+        <!-- ctrl; (legenda para imagens) -->
+        <figcaption>
+        </figcaption>
+    </figure>
+    <!-- ctrl; (rodapé) -->
+    <footer>
+    </footer>
+    <!-- link (abrindo outra aba) -->
+    <a href="" target="_blank"></a>
+
+</body>
+<script src="../../js/perfilProfissional.js"></script>
+
+</html>
