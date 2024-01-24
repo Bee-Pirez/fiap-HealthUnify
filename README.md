@@ -7,8 +7,8 @@ solução para a área da saúde utilizando o FHIR, da Microsoft</p>
 <p>O HealthUnify é apenas um projeto criado para solicionar o desafio proposto na faculdade de sistemas para internet que simplifica o acesso e o gerenciamento das informações de saúde dos pacientes, trazendo impactos significativos alinhados com os Objetivos de Desenvolvimento Sustentável (ODS) 3 (Saúde e Bem-Estar), 9 (Indústria, Inovação e Infraestrutura) e 12 (Consumo e Produção Sustentáveis). </p>
 <p>Lembrando que o projeto acadêmico visa botar em prática os conceitos aprendidos e que modificações e aperfeiçoamentos futuros podem surgir e que nem todas as funcionalidades estão totalmente finalizadas</p>
 
-[Pitch](https://www.youtube.com/watch?v=fAmKjRlkFE0)
-[Protótipo](https://www.figma.com/file/dlitQz3yASzQyDYcCwPMxh/HealthUnify?type=design&node-id=148%3A744&mode=design&t=irjfhqDwwDWi7LLj-1)
+* [Pitch](https://www.youtube.com/watch?v=fAmKjRlkFE0)
+* [Protótipo](https://www.figma.com/file/dlitQz3yASzQyDYcCwPMxh/HealthUnify?type=design&node-id=148%3A744&mode=design&t=irjfhqDwwDWi7LLj-1)
 
 
 ### 👨‍💻 Principais tecnologias e conhecimentos utilizados:
