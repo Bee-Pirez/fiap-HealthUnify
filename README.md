@@ -40,16 +40,16 @@ Para baixar, executar e modificar o projeto, você precisa (ou pode precisar) te
 
 ### 📋 OBS:
 Caso você queira usar o Azure Database for MySQL (banco de dados na nuvem) você precisará de conhecimento prévio em nuvem, aqui estão algumas instruções rápidas de como realizei no projeto: 
-1. Criar uma Conta no Azure
+1. Criar uma Conta no Azure:
 Acesse o Portal do Azure.
 Crie uma conta ou faça login se já possuir uma.
-2. Criar um Grupo de Recursos
+2. Criar um Grupo de Recursos:
 Procure por "Grupo de Recursos" e clique em "Criar" e forneça um nome e uma região para o grupo de recursos(para a região aconcelho dar uma pesquisada sobre a latência). Este grupo será usado para organizar e gerenciar os recursos relacionados ao seu projeto.
-3. Criar um Servidor MySQL
+3. Criar um Servidor MySQL:
 No portal procure "Servidores do Banco de Dados do Azure para MySQL" e selecione.
 Clique em Criar Servidor Banco de Dados do Azure para MySQL e escolha o servidor flexível.
 Preencha todas as informações básicas necessárias, como o seu tipo de assinatura, o grupo de recurso que deseja usar para esse projeto, nome do servidor, região(aconselho colocar a mesma selecionada no grupo de recursos), versão do seu mysql, tipo de carga do trabalho, método de autenticação, nome de usuário adm e senha.
-4. Configurar o Firewall
+4. Configurar o Firewall:
 Adicione regras de firewall para permitir o acesso ao banco de dados de endereços IP específicos ou de todas as origens.
 5. Revisar e criar
 6. No meu projeto utilizei o sequelize, então configure o arquivo api/config/config.json do Sequelize com as informações do seu banco de dados Azure.
