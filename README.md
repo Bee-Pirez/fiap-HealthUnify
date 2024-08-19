@@ -4,7 +4,7 @@
 solução para a área da saúde utilizando o FHIR, da Microsoft</p>
 
 ## 💡 Informações do projeto
-<p>O HealthUnify é o projeto ganhador em primeiro lugar do fiap Next 2024 criado para solucionar o desafio proposto na faculdade de sistemas para internet que simplifica o acesso e o gerenciamento das informações de saúde dos pacientes, trazendo impactos significativos alinhados com os Objetivos de Desenvolvimento Sustentável (ODS) 3 (Saúde e Bem-Estar), 9 (Indústria, Inovação e Infraestrutura) e 12 (Consumo e Produção Sustentáveis). </p>
+<p>O HealthUnify é o projeto ganhador em primeiro lugar do fiap Next 2023 criado para solucionar o desafio proposto na faculdade de sistemas para internet que simplifica o acesso e o gerenciamento das informações de saúde dos pacientes, trazendo impactos significativos alinhados com os Objetivos de Desenvolvimento Sustentável (ODS) 3 (Saúde e Bem-Estar), 9 (Indústria, Inovação e Infraestrutura) e 12 (Consumo e Produção Sustentáveis). </p>
 <p>Lembrando que o projeto acadêmico visa botar em prática os conceitos aprendidos e que modificações e aperfeiçoamentos futuros podem surgir e que nem todas as funcionalidades estão totalmente finalizadas</p>
 
 * [Pitch](https://www.youtube.com/watch?v=fAmKjRlkFE0)
